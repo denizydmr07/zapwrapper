@@ -8,7 +8,7 @@ A personal wrapper around `zap.Logger` that writes logs to both the console and 
 package main
 
 import (
-	"github.com/yourusername/yourproject/zapwrapper"
+	"github.com/denizydmr07/zapwrapper/pkg/zapwrapper
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )
