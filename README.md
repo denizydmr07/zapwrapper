@@ -16,7 +16,7 @@ import (
 func main() {
 	logger := zapwrapper.NewLogger(
 		zapwrapper.DefaultFilepath      // Log file path
-        zapwrapper.DefaultMaxBackups    // Max number of log files to retain
+        	zapwrapper.DefaultMaxBackups    // Max number of log files to retain
 		zapwrapper.DefaultLogLevel,     // Log level
 	)
 
